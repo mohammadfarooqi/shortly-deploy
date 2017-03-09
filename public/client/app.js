@@ -21,7 +21,7 @@ window.Shortly = Backbone.View.extend({
     return this;
   },
 
-  renderIndexView: function(e) {  
+  renderIndexView: function(e) {
     e && e.preventDefault();
     this.router.navigate('/', { trigger: true });
   },
@@ -38,4 +38,3 @@ window.Shortly = Backbone.View.extend({
       .addClass('selected');
   }
 });
-//typing in app
